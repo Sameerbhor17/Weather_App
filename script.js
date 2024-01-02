@@ -8,7 +8,6 @@ wIcon = weatherPart.querySelector("img"),
 arrowBack = wrapper.querySelector("header i");
 
 let api;
-let apiKey = `9d219b5b2fcdca411a8d453852a40475`;
 inputField.addEventListener("keyup", e =>{
     if(e.key == "Enter" && inputField.value != ""){
         requestApi(inputField.value);
